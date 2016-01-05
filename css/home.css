@@ -1,0 +1,203 @@
+* {	font-family: 'Open Sans', sans-serif; }
+body {
+   background: #154558 url(../images/jumbo_background.jpg) fixed;
+    background-size: cover;
+    min-height: 100%;
+    padding-bottom: 130px;
+    color: #fff;
+    min-width: 1330px;
+}
+.navigate{
+    width: 1100px;
+    margin-left: 140px;
+    margin-top: 15px;
+    
+}
+.navigate ul ul {
+	display: none;
+}
+.navigate ul li {
+    background: black;
+    border-radius: 10px;
+}
+
+.navigate ul:active{
+    color: black;
+}
+.navigate ul li:hover > ul {
+    display: block;
+}
+.navigate ul {
+	background: black; 
+	padding: 0px 0px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+    border-radius: 10px;
+    margin-top: 75px;
+}
+.navigate ul:after {
+    content: ""; 
+    clear: both; 
+    display: block;
+}
+.navigate ul li {
+	float: left;
+}
+
+.navigate ul li:hover a,
+.logoutIcon a:hover,
+.backIcon a:hover{
+    color: #fff;
+}
+
+.navigate ul li a,
+.logoutIcon a,
+.backIcon a{
+    display: block; 
+    padding: 0px 20px;
+    color: #757575; 
+    text-decoration: none;
+}
+
+.navigate ul ul {
+	background: #5f6975; 
+    padding: 0;
+	position: absolute; 
+    top: -11px;
+}
+.navigate ul ul li {
+    border-radius: 0px;
+    float: none; 
+    position: relative;
+    width: 200px;
+}
+.navigate ul ul li a {
+    padding: 15px 40px;
+    color: #fff;
+}	
+.navigate ul ul li a:hover {
+    background: #4b545f;
+}
+
+.navigate ul #active{
+    background:	#580000  ;
+}
+                                                    
+.navigate p{
+    width:160px;
+    text-align: center;
+}
+.navigate #space{
+    width: 250px;
+}
+
+.navigate{
+    position:relative;
+}
+.logo{
+    position: absolute;
+    margin-left: -650px;
+    width: 250px;
+    height: 240px;
+}
+#header{
+    margin-left: 390px;
+}
+
+.logoutIcon,
+.backIcon{
+    position: absolute;
+    height: 45px;
+    padding-top: 20px;
+    border-radius: 8px;   
+    margin-left: 1055px;
+    margin-top: -80px;
+}
+.backIcon{
+     margin-left:-75px;
+}
+.wrap{
+    height: 750px;
+}
+.wrap:after{
+    content: "";
+    display: block;
+    height: 300px;
+}
+footer{
+    background: black;
+    text-align: center;
+    padding-top: 20px;
+    height: 250px;
+    width: 1350px;
+    margin-left: -10px;
+    margin-bottom: -140px;
+}
+
+
+#foot{
+    font-size: 12px;
+}
+footer a:link{
+    color: #757575;   
+}
+footer a:hover{
+    color: white;
+}
+#acadLogo{
+    width: 120px;
+    float: left;
+}
+#acadLogo img:hover{
+    width: 100px;
+    height: 100px;
+}
+.logos{
+    width:1200px;
+    height:100px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+#title{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-bottom: 0px;
+}
+h2{
+    margin-top:100px;
+    margin-left: 480px;
+}
+.panelWrap{
+    margin-top: 100px;
+}
+.panelHead,
+.panelHeadAdmin{
+    display: table;
+    width: 500px;
+    margin:0 auto;
+    margin-bottom: 5px;
+}
+.panelHeadAdmin{
+    margin-left: 350px;
+}
+#panelTitle{
+    display: block;
+    padding: 10px 0px 15px 0px;
+    width: 400px;
+    height: 20px;
+    text-align: center;
+    align-content: center;
+    background: white;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;;
+    margin: 0 auto;
+    color:black;
+    box-shadow: 
+        0 0 9px rgba(0, 0, 0, 0.9), 
+        0 3px 7px rgba(0, 0, 0, 0.9), 
+        inset 0 1px rgba(255,255,255,1),
+        inset 0 -3px 2px rgba(0,0,0,0.25);
+}
+

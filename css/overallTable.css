@@ -1,0 +1,44 @@
+.overAll{
+    padding: 10px;
+     box-shadow: 
+        0 0 9px rgba(0, 0, 0, 0.9), 
+        0 3px 7px rgba(0, 0, 0, 0.9), 
+        inset 0 1px rgba(255,255,255,1),
+        inset 0 -3px 2px rgba(0,0,0,0.25);
+    border-radius: 6px;
+    color: black;
+    background: white;
+    
+}
+.overAll th,
+.sportsEdit th,
+.sportsView th{
+    height: 50px;
+    padding: 0px 25px 0px 25px;
+    box-shadow: 
+        0 0 9px rgba(0, 0, 0, 0.9), 
+        0 3px 7px rgba(0, 0, 0, 0.9), 
+        inset 0 1px rgba(255,255,255,1),
+        inset 0 -3px 2px rgba(0,0,0,0.25);
+}
+.overAll p{
+    width: 80px;
+}
+.overAll #org{
+    width: 200px;
+}
+.overAll tbody tr td,
+.sportsEdit tbody tr td,
+.sportsView tbody tr td{
+    height: 50px;
+    text-align: center;  
+} 
+.overAll tbody tr #org1{
+    text-align:right;
+}
+.overAll tbody tr #org2{
+    text-align:left;
+}
+tr:hover {
+    background-color: silver;
+}

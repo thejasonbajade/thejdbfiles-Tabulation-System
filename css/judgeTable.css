@@ -1,0 +1,170 @@
+table{
+  
+    margin: 0 auto;
+    margin-top: -130px;
+    padding: 15px;
+    box-shadow: 
+        0 0 9px rgba(0, 0, 0, 0.9), 
+        0 3px 7px rgba(0, 0, 0, 0.9), 
+        inset 0 1px rgba(255,255,255,1),
+        inset 0 -3px 2px rgba(0,0,0,0.25);
+    border-radius: 6px;
+}
+.viewScores{
+    margin-top: 0px;
+}
+.wrapper{
+    margin-top: 120px;
+    width: 1320px;
+}
+.scoresWrap{
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 1250px;
+}
+.head p{
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    color: black;
+}
+th{
+    background: white;
+    padding-bottom: 10px;
+    box-shadow: 
+        0 0 9px rgba(0, 0, 0, 0.9), 
+        0 3px 7px rgba(0, 0, 0, 0.9), 
+        inset 0 1px rgba(255,255,255,1),
+        inset 0 -3px 2px rgba(0,0,0,0.25);
+    border-radius: 3px;
+}
+.head #total{
+     width: 80px;
+}
+.head #rank{
+    width: 70px;
+}
+.scores tr{
+    background: white;
+    color: black;
+    text-align: center;
+    height: 20px;
+}
+.scores td{
+    padding: 0px;
+}
+
+input[type=number] 
+{
+   
+    width: 110px;
+    height: 15px;
+    padding: 10px 0px 10px 30px;
+    border: none; 
+    box-shadow: 
+        inset 0px 0px 0px rgba(0,0,0,0.1),
+        inset 0px 3px 0px rgba(0,0,0,0.1);
+    border-radius: 3px;
+    background: #f9f9f9;
+    color: black;
+    transition: color 0.3s ease-out;  
+}
+.tableNav{
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 90px;
+  
+}
+.innerTableNav{
+    display: table;
+    margin: 0 auto;
+}
+.tableNav ul {
+	border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+	list-style: none;
+	display: inline-table;
+    padding-left: 0px;
+    box-shadow: 
+        0 0 9px rgba(0, 0, 0, 0.9), 
+        0 3px 7px rgba(0, 0, 0, 0.9), 
+        inset 0 1px rgba(255,255,255,1),
+        inset 0 -3px 2px rgba(0,0,0,0.25);
+    
+}
+.tableNav ul li {
+    width: 250px;
+    height: 50px;
+    float: left;
+    padding: inherit;
+}
+.tableNav ul li:hover a {
+    color: #000;
+}
+.tableNav ul li a {
+    display: block; 
+    padding: 20px 40px;
+    text-align: center;
+    color: #757575; 
+    text-decoration: none;
+}
+.tableNav ul #active{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background: white;
+}
+#genButton{
+    width: 100%;
+    height: 100%;
+    margin-top: -1px;
+    font-size: 1.4em;
+    line-height: 1.75;
+    color: white;
+    border: none;
+    border-radius: inherit;
+    background: #7d8d9b;
+    box-shadow: 
+        inset 0 1px 0 rgba(255,255,255,0.3),
+        0 1px 2px rgba(0,0,0,0.35),
+        inset 0 3px 2px rgba(255,255,255,0.2),
+        inset 0 -3px 2px rgba(0,0,0,0.1);
+
+    cursor: pointer;
+}
+
+#genButton:hover{
+    background: #a6a6a6;
+    transition: all 0.3s ease-out;
+}
+#genButton:active{
+    background: #7d8d9b;
+    box-shadow: 
+        inset 0 0 5px rgba(0,0,0,0.3),
+        inset 0 3px 4px rgba(0,0,0,0.3);
+}
+.genSubmit{ 
+    margin-left:0px;
+    width: 130px;
+    height: 30px;
+    padding: 7px;
+   
+    background: none;
+    border-radius: 50px;
+    box-shadow: 
+        inset 0 1px 0 rgba(255,255,255,0.3),
+        0 1px 2px rgba(0,0,0,0.35),
+        inset 0 3px 2px rgba(255,255,255,0.2),
+        inset 0 -3px 2px rgba(0,0,0,0.1);
+}
+#genButton {
+    font-size: 1em;
+    background:  #7d8d9b;
+}
+#edit{
+    color:#CC3366;
+}
+#edit:hover{
+    color:#980000 ;
+}
